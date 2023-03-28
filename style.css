@@ -3,20 +3,31 @@ body {
     color: white;
 }
 
-.header {
-    padding: 1rem 0;
-    height: 5rem;
-    display: flex;
-    width: 80%;
-    margin: auto;
+.heading {
+    height: 3rem;
+    width: 100%;
     font-size: 2em;
+    position: fixed;
+    background-color: #141414;
+    margin: 0 auto;
+    height: 3em;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.heading-name {
+    width: 85%;
 }
 
 .main-content {
     display: flex;
-    width: 80%;
+    width: 85%;
     margin:auto;
     font-family: 'Montserrat',sans-serif;
+    margin-top: 10em;
 }
 
 #section01 {
@@ -25,21 +36,34 @@ body {
 
 .content {
     display: flex;
-    flex: 0 0 80%;
-    flex-direction: column;
-    max-width: 75%; 
+    flex-direction: column; 
+    max-width: 75%;
 }
 
 .nav {
-    flex: 1;
     padding-left: 3rem;
+    display: flex;
+    position: fixed;
+    top: 6em;
+    left: 90em;
+    justify-content: space-between;
 }
+
+#nav-list {
+    font-size: 1.4em;
+    font-weight: 600;
+    list-style-type: decimal-leading-zero;
+}
+
+li:not(:last-child) { 
+    margin-bottom: 20px;  
+ }
 
 .picture img{
     border-radius: 50%;
     width: 10em;
     height: 10em;
-    border: 2px solid aqua;
+    border: 2px solid greenyellow;
 }
 
 .name {
@@ -53,7 +77,7 @@ body {
 }
 
 .line-break {
-    color:aqua;
+    color:greenyellow;
     width: 10%;
     text-align: left;
     margin: 2rem 0 2rem 0;
@@ -63,6 +87,7 @@ body {
     font-family: 'Montserrat';
     font-size: 4em;
     font-weight: 800;
+    padding-bottom: 50px;
 }
 
 .paragraph {
@@ -71,21 +96,128 @@ body {
 
 #section02 {
     min-height: 100vh;
+    max-width: 90%;
 }
 
-.skills {
+.skills-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 70px;
 }
 
 .skill-box {
     flex: 1 1 0;
     min-height: 15em;
-    border: 2px solid white;
-    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#skill {
+    font-size: 1em;
+    font-weight: 800;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
+.skill-bar {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: .1875rem;
+}
 
+#skill-1-progress {
+    width: 30%; background-color: greenyellow;
+    height: 3px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+}
+
+#skill-2-progress {
+    width: 15%; background-color: greenyellow;
+    height: 3px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+}
+
+#skill-3-progress {
+    width: 70%; background-color: greenyellow;
+    height: 3px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+}
+
+#skill-4-progress {
+    width: 87%; background-color: greenyellow;
+    height: 3px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+}
+
+#section03 {
+    min-height: 100vh;
+}
+
+.school-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.dates {
+    opacity: 70%;
+    padding-bottom: 20px;
+}
+
+.school-cert {
+    font-size: 3em;
+    transform: translateX(-5px);
+}
+
+.school-name {
+    word-spacing: 3px;
+    padding-top: 10px;
+}
+
+#section04 {
+    min-height: 100vh;
+}
+
+#section05 .org-name {
+    font-size: 2em;
+}
+
+#section05 {
+    min-height: 100vh;
+}
+
+.work-box-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.work-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.org-role {
+    word-spacing: 3px;
+    padding-top: 10px;
+    color: greenyellow;
+    padding-bottom: 20px;
+}
+
+.org-description {
+    max-width: 75%;
+}
+
+.org-description ul {
+    padding-left: 0;
+}
 
