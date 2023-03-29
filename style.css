@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: #141414;
     color: white;
@@ -31,7 +36,8 @@ body {
 }
 
 #section01 {
-    min-height: 100vh;
+    min-height: 90vh;
+    padding-top: 6rem;
 }
 
 .content {
@@ -51,8 +57,23 @@ body {
 
 #nav-list {
     font-size: 1.4em;
-    font-weight: 600;
+    font-weight: 100;
     list-style-type: decimal-leading-zero;
+    transition: 1s;
+}
+
+.nav-list-items {
+    color: white;
+}
+
+.nav-list-items:hover {
+    color: gray;
+    transform: translateX(-5px);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 li:not(:last-child) { 
@@ -91,12 +112,18 @@ li:not(:last-child) {
 }
 
 .paragraph {
-   font-size: 1.5em; 
+   font-size: 1.5em;
+}
+
+.paragraph p {
+    margin-top: 0;
 }
 
 #section02 {
-    min-height: 100vh;
+    min-height: 90vh;
     max-width: 90%;
+    padding-top: 5.5rem;
+
 }
 
 .skills-container {
@@ -121,6 +148,10 @@ li:not(:last-child) {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.skill-name {
+    font-weight: 100];
 }
 
 
@@ -160,7 +191,8 @@ li:not(:last-child) {
 }
 
 #section03 {
-    min-height: 100vh;
+    min-height: 90vh;
+    padding-top: 5.5rem;
 }
 
 .school-box {
@@ -184,7 +216,8 @@ li:not(:last-child) {
 }
 
 #section04 {
-    min-height: 100vh;
+    min-height: 90vh;
+    padding-top: 5.5rem;
 }
 
 #section05 .org-name {
@@ -192,7 +225,8 @@ li:not(:last-child) {
 }
 
 #section05 {
-    min-height: 100vh;
+    min-height: 90vh;
+    padding-top: 5.5rem;
 }
 
 .work-box-parent {
@@ -215,6 +249,7 @@ li:not(:last-child) {
 
 .org-description {
     max-width: 75%;
+    font-size: 1.5em;
 }
 
 .org-description ul {
