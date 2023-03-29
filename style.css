@@ -9,7 +9,7 @@ body {
 }
 
 .heading {
-    height: 3rem;
+    height: 2.5rem;
     width: 100%;
     font-size: 2em;
     position: fixed;
@@ -25,6 +25,11 @@ body {
 
 .heading-name {
     width: 85%;
+}
+
+.heading-name img{
+    width: 200px;
+    height: 40px;
 }
 
 .main-content {
@@ -151,7 +156,7 @@ li:not(:last-child) {
 }
 
 .skill-name {
-    font-weight: 100];
+    font-weight: 100    ;
 }
 
 
@@ -256,3 +261,30 @@ li:not(:last-child) {
     padding-left: 0;
 }
 
+#section06 {
+    min-height: 90vh;
+    margin-top: 50vh;
+}
+
+.socials {
+    display: flex;
+    gap: 50px;
+}
+
+.socials-title {
+    opacity: 50%;
+}
+
+.socials-content {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
