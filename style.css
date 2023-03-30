@@ -8,7 +8,7 @@ body {
     color: white;
 }
 
-.heading {
+#heading {
     height: 2.5rem;
     width: 100%;
     font-size: 2em;
@@ -23,13 +23,17 @@ body {
     z-index: 9999;
 }
 
-.heading-name {
+#home {
+    color: #141414;
+}
+
+#heading-name {
     width: 85%;
 }
 
-.heading-name img{
-    width: 200px;
-    height: 40px;
+#heading-name img{
+    width: 185px;
+    height: 29.6px;
 }
 
 .main-content {
@@ -42,7 +46,7 @@ body {
 
 #section01 {
     min-height: 90vh;
-    padding-top: 6rem;
+    padding-top: 1rem;
 }
 
 .content {
@@ -58,22 +62,34 @@ body {
     top: 6em;
     left: 90em;
     justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
 }
 
 #nav-list {
     font-size: 1.4em;
-    font-weight: 100;
+    font-weight: 500;
     list-style-type: decimal-leading-zero;
     transition: 1s;
 }
 
 .nav-list-items {
     color: white;
+    list-style-type: none;
 }
 
 .nav-list-items:hover {
     color: gray;
     transform: translateX(-5px);
+}
+
+.linkedin:hover {
+    text-decoration: underline;
+}
+
+.linkedin {
+    font-size: 1.2em;
+    font-weight: 200;
 }
 
 a {
@@ -89,10 +105,10 @@ li:not(:last-child) {
     border-radius: 50%;
     width: 10em;
     height: 10em;
-    border: 2px solid greenyellow;
+    border: 2px solid #ff951c;
 }
 
-.name {
+#name {
     font-size: 7em;
     padding-top: 3rem;
     font-weight: 800;
@@ -103,7 +119,7 @@ li:not(:last-child) {
 }
 
 .line-break {
-    color:greenyellow;
+    color:#ff951c;
     width: 10%;
     text-align: left;
     margin: 2rem 0 2rem 0;
@@ -113,7 +129,7 @@ li:not(:last-child) {
     font-family: 'Montserrat';
     font-size: 4em;
     font-weight: 800;
-    padding-bottom: 50px;
+    padding-bottom: 28px;
 }
 
 .paragraph {
@@ -156,43 +172,44 @@ li:not(:last-child) {
 }
 
 .skill-name {
-    font-weight: 100    ;
+    font-weight: 500;
+    font-size: 1.2em;
 }
 
 
 .skill-bar {
     width: 100%;
-    height: 3px;
-    background-color: white;
-    border-radius: .1875rem;
+    height: 6px;
+    background-color: lightgray;
 }
 
 #skill-1-progress {
-    width: 30%; background-color: greenyellow;
-    height: 3px;
+    width: 30%; background-color: #ff951c;
+    height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-2-progress {
-    width: 15%; background-color: greenyellow;
-    height: 3px;
+    width: 15%; background-color: #ff951c;
+    height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-3-progress {
-    width: 70%; background-color: greenyellow;
-    height: 3px;
+    width: 70%; background-color: #ff951c;
+    height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-4-progress {
-    width: 87%; background-color: greenyellow;
-    height: 3px;
+    width: 87%; background-color: #ff951c;
+    height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
+
 }
 
 #section03 {
@@ -206,8 +223,9 @@ li:not(:last-child) {
 }
 
 .dates {
-    opacity: 70%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+    opacity: 65%;
 }
 
 .school-cert {
@@ -215,9 +233,36 @@ li:not(:last-child) {
     transform: translateX(-5px);
 }
 
+.school-program {
+    font-size: 3em;
+    transform: translateX(-5px);
+}
+
+.school-cert:hover {
+    text-decoration: underline;
+}
+
 .school-name {
     word-spacing: 3px;
     padding-top: 10px;
+    font-size: 1.25em;
+}
+
+.edcert-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.education-boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.cert-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 #section04 {
@@ -232,6 +277,7 @@ li:not(:last-child) {
 #section05 {
     min-height: 90vh;
     padding-top: 5.5rem;
+    margin-bottom: 450px;
 }
 
 .work-box-parent {
@@ -248,8 +294,9 @@ li:not(:last-child) {
 .org-role {
     word-spacing: 3px;
     padding-top: 10px;
-    color: greenyellow;
-    padding-bottom: 20px;
+    color: #ff951c;
+    padding-bottom: 0px;
+    font-size: 1.25em;
 }
 
 .org-description {

@@ -2,39 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="header.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;700&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Saurabh Patil</title>
 </head>
 <body>
-    <div class="heading">
-        <div class="heading-name">
-            <img src="signature.png" alt="signature">
+    <div id="heading">
+        <div id="heading-name">
+            <img src="signature(nothing).png" alt="signature">
         </div>
     </div>
+    <div id="home">home</div>
     <div class="main-content">
         <div class="content">
             <section id="section01">
                 <div class="picture">
                     <img src="saurabhpic.jpeg" alt="saurabh">
                 </div>
-                <div class="name">
+                <div id="name">
                     Saurabh 
                 <br>
                     Patil
                 </div>
+                <div id="heading-invis"></div>
                 <hr class="line-break">
                 <div class="position">
-                    Financial Operations Specialist
+                    Finance Operations Specialist @ Sampler
                 </div>
             </section>
             <section id="section02">
                 <div class="titles">
                     ABOUT ME
+                    <hr class="line-break">
                 </div>
                 <div class="paragraph">
                     <p>
@@ -45,6 +51,7 @@
             <section id="section03">
                 <div class="titles">
                     SKILLS
+                    <hr class="line-break">
                 </div>
                 <div class="skills-container">
                     <div class="skill-box">
@@ -124,22 +131,52 @@
             <section id="section04">
                 <div class="titles">
                     EDUCATION
+                    <hr class="line-break">
                 </div>
-                <div class="school-box">
-                    <div class="dates">
-                        2016 - 2021
+                <div class="edcert-boxes">
+                    <div class="education-boxes">
+                        <div class="school-box">
+                            <div class="dates">
+                                2016 - 2021
+                            </div>
+                            <div class="school-program">
+                                Accounting & Finance
+                            </div>
+                            <div class="school-name">
+                                Bachelor of Commerce | Toronto Metropolitan University
+                            </div>
+                        </div>
                     </div>
-                    <div class="school-cert">
-                        Bachelor of Commerce
-                    </div>
-                    <div class="school-name">
-                        Toronto Metropolitan University
+                    <div class="cert-boxes">
+                        <div class="school-box">
+                            <div class="dates">
+                                2020
+                            </div>
+                            <div class="school-cert">
+                                <a href="https://www.credential.net/e1e98f99-171e-4e12-8d75-0a29ad8c72ea" target="_blank">Financial Modelling & Valuation Analyst (FMVA)<i class="fa fa-external-link" style="font-size: 0.5em;color:#ff951c;opacity: 50%;"></i></a> 
+                            </div>
+                            <div class="school-name">
+                                Certification | Corporate Finance Institute
+                            </div>
+                        </div>
+                        <div class="school-box">
+                            <!-- <div class="dates">
+                                2020
+                            </div> -->
+                            <div class="school-cert">
+                                <a href="https://credentials.corporatefinanceinstitute.com/08f55ab7-3525-45d7-a2a2-7fed9fe95842" target="_blank">Capital Markets & Securities Analyst (CMSA)<i class="fa fa-external-link" style="font-size: 0.5em; color: #ff951c; opacity: 50%;"></i></a> 
+                            </div>
+                            <div class="school-name">
+                                Certification | Corporate Finance Institute
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
             <section id="section05">
                 <div class="titles">
                     EXPERIENCE
+                    <hr class="line-break">
                 </div>
                 <div class="work-box-parent">
                     <div class="work-box">
@@ -157,6 +194,7 @@
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
+                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                             </ul>
                         </div>
                     </div>
@@ -165,14 +203,13 @@
                             2021 - 2022
                         </div>
                         <div class="org-name">
-                            BMO
+                            Bank of Montreal (BMO)
                         </div>
                         <div class="org-role">
-                            Finance Analyst
+                            Financial Analyst
                         </div>
                         <div class="org-description">
                             <ul>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                             </ul>
@@ -183,7 +220,7 @@
                             2020 - 2020
                         </div>
                         <div class="org-name">
-                            RBC
+                            Royal Bank of Canada (RBC)
                         </div>
                         <div class="org-role">
                             Operations Agent
@@ -192,48 +229,23 @@
                             <ul>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                                 <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
-                                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi perferendis quasi vel aliquid eligendi excepturi exercitationem quia.</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section06">
-                <div class="titles">
-                    CONTACT
-                </div>
-                <div class="contact-box">
-                    <div class="socials">
-                        <div class="socials-box">
-                            <div class="socials-title">
-                                STAY IN TOUCH
-                            </div>
-                            <div class="socials-content">
-                                <div>saurabh8880@gmail.com</div>
-                                <div>647-574-9965</div>
-                            </div>
-                        </div>
-                        <div class="socials-box">
-                            <div class="socials-title">
-                                SOCIAL
-                            </div>
-                            <div class="socials-content">
-                                LinkedIn
-                            </div>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
         <div class="nav">
-            <ul id="nav-list">
-                <li class="nav-list-items"> <a href="#section01">TOP </a> </li>
+            <div id="nav-list">
+                <li class="nav-list-items"> <a href="#home">HOME</a> </li>
                 <li class="nav-list-items"> <a href="#section02">ABOUT ME </a> </li>
                 <li class="nav-list-items"> <a href="#section03">SKILLS</a> </li>
                 <li class="nav-list-items"> <a href="#section04">EDUCATION</a> </li>
                 <li class="nav-list-items"> <a href="#section05">EXPERIENCE</a> </li>
-                <li class="nav-list-items"> <a href="#section06">CONTACT</a> </li>
-            </ul>  
+            </div>  
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/saurabhpatil98/" target="_blank">My LinkedIn</a>
+            </div>
         </div>
     </div>
 </body>
