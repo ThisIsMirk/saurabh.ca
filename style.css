@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     background-color: #141414;
     color: white;
@@ -41,12 +40,21 @@ body {
     width: 85%;
     margin:auto;
     font-family: 'Montserrat',sans-serif;
-    margin-top: 10em;
+    margin-top: 9em;
 }
 
 #section01 {
     min-height: 90vh;
-    padding-top: 1rem;
+    transition: all 0.4s;
+}
+
+.hidden {
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+
+.show {
+    transform: translate(0);
 }
 
 .content {
@@ -144,7 +152,6 @@ li:not(:last-child) {
     min-height: 90vh;
     max-width: 90%;
     padding-top: 5.5rem;
-
 }
 
 .skills-container {
