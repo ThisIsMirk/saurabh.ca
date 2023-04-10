@@ -1,5 +1,5 @@
 const options = {
-    threshold:0.09
+    threshold:0.06
 }
 
 const observer = new IntersectionObserver((entries) => {
@@ -16,6 +16,6 @@ const observer = new IntersectionObserver((entries) => {
 },options);
 
 
-const hiddenElements = document.querySelectorAll(".hidden");
+const hiddenElements = document.querySelectorAll('.hidden, .nav-hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
