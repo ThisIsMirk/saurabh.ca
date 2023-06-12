@@ -7,6 +7,6 @@ $(document).ready(function() {
         }
         if($(window).scrollTop() < topOfOthDiv) { //scrolled past the other div?
             $("#heading").hide(200); //reached the desired point -- show div
-        }
+        } 
     });
 });

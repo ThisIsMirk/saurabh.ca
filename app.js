@@ -8,10 +8,7 @@ const observer = new IntersectionObserver((entries) => {
         if(entry.isIntersecting) {
             entry.target.classList.add('show');
             entry.target.style.opacity = '1.0'
-        } else {
-                entry.target.classList.remove('show');
-                entry.target.style.opacity = '0.0'
-        }
+        } 
     });
 },options);
 
