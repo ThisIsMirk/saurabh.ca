@@ -168,6 +168,7 @@ li:not(:last-child) {
 
 .paragraph {
    font-size: 1.5em;
+   line-height: 50px;
 }
 
 .paragraph p {
@@ -217,28 +218,60 @@ li:not(:last-child) {
 }
 
 #skill-1-progress {
-    width: 30%; background-color: #ff951c;
+    width: 82%; background-color: #ff951c;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-2-progress {
-    width: 15%; background-color: #ff951c;
+    width: 100%; background-color: #ff951c;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-3-progress {
-    width: 70%; background-color: #ff951c;
+    width: 85%; background-color: #ff951c;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-4-progress {
-    width: 87%; background-color: #ff951c;
+    width: 90%; background-color: #ff951c;
+    height: 6px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+
+}
+
+#skill-5-progress {
+    width: 90%; background-color: #ff951c;
+    height: 6px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+
+}
+
+#skill-6-progress {
+    width: 85%; background-color: #ff951c;
+    height: 6px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+
+}
+
+#skill-7-progress {
+    width: 77%; background-color: #ff951c;
+    height: 6px;
+    /* border: 0.5px solid ; */
+    box-sizing: border-box;
+
+}
+
+#skill-8-progress {
+    width: 77%; background-color: #ff951c;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
@@ -258,17 +291,22 @@ li:not(:last-child) {
 .dates {
     padding-bottom: 10px;
     font-size: 1.5em;
-    opacity: 65%;
+    font-weight: 800;
 }
 
 .school-cert {
-    font-size: 3em;
+    font-size:2.25em;
     transform: translateX(-5px);
+    color: #ff951c;
 }
 
 .school-program {
-    font-size: 3em;
+    font-size: 2.25em;
     transform: translateX(-5px);
+    /* color: #ff951c; */
+    /* text-decoration: underline;
+    text-decoration-color: #ff951c; */
+    
 }
 
 .school-cert:hover {
