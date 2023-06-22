@@ -168,7 +168,7 @@ li:not(:last-child) {
 
 .paragraph {
    font-size: 1.5em;
-   line-height: 50px;
+   line-height: 42px;
 }
 
 .paragraph p {
@@ -348,7 +348,7 @@ li:not(:last-child) {
 #section05 {
     min-height: 90vh;
     padding-top: 5.5rem;
-    margin-bottom: 450px;
+    margin-bottom: 150px;
 }
 
 .work-box-parent {
