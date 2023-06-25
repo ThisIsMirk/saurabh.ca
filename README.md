@@ -1,3 +1,3 @@
-# saurabh.com
+# saurabh.ca
 Making a website for my friend, Saurabh :) 
-Not yet public. 
+Officially public!
