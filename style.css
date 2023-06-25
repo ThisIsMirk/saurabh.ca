@@ -217,6 +217,7 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     .line-break {
+        color: #ff951c;
         width: 20% ;
         margin: 1rem 0 1rem 0;
     }   
@@ -415,13 +416,13 @@ li:not(:last-child) {
 
 #section03 {
     min-height: 90vh;
-    padding-top: 5.5rem;
+    padding-top: 15vh;
 }
 
 @media screen and (max-width: 810px) {
     #section03 {
         min-height: 50vh;
-        padding-top: 0;
+        /* padding-top: 0; */
     }
 }
 
@@ -512,7 +513,7 @@ li:not(:last-child) {
 
 #section04 {
     min-height: 90vh;
-    padding-top: 5.5rem;
+    padding-top: 15vh;
 }
 
 @media screen and (max-width: 810px) {
@@ -533,14 +534,8 @@ li:not(:last-child) {
 
 #section05 {
     min-height: 90vh;
-    padding-top: 5.5rem;
+    padding-top: 15vh;
     margin-bottom: 150px;
-}
-
-@media screen and (max-width: 810px) {
-    #section05 {
-        padding-top: 2rem;
-    }
 }
 
 .work-box-parent {
