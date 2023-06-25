@@ -298,7 +298,7 @@ li:not(:last-child) {
     background-color: lightgray;
 }
 
-@media screen {
+@media screen and (max-width: 810px) {
     .skill-bar {
         height: 3px;
     }
