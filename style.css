@@ -22,7 +22,7 @@ body {
     z-index: 9999;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #heading {
         height: 1.5rem;
     }
@@ -41,7 +41,7 @@ body {
     height: 29.6px;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #heading-name img{
         width: 100px;
         height: 15px;
@@ -49,21 +49,31 @@ body {
 }
 
 .main-content {
-    display: flex;
+    display: block;
     width: 85%;
     margin:auto;
     font-family: 'Montserrat',sans-serif;
     margin-top: 9em;
 }
 
-@media screen and (max-width: 810px) {
+.layout1 {
+    display: inline-block;
+    max-width: 75%;
+}
+
+.layout2 {
+    display: inline-block;
+    padding-left: 5vw;
+}
+
+@media screen and (max-width: 600px) {
     .main-content {
         margin-top: 3em;
     }
 }
 
 #section01 {
-    min-height: 90vh;
+    min-height: 70vh;
     transition: all 0.4s;
 }
 
@@ -85,28 +95,26 @@ body {
 .content {
     display: flex;
     flex-direction: column; 
-    max-width: 75%;
+    max-width: 100%;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .content {
         max-width: 100%;
     }
 }
 
 .nav {
-    padding-left: 3rem;
     display: flex;
     position: fixed;
-    top: 6em;
-    left: 90em;
-    justify-content: space-between;
     flex-direction: column;
     gap: 40px;
     font-family: 'Montserrat',sans-serif;
+    width: min-content;
+    top: 20vh;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .nav {
         display: none;
     }
@@ -125,7 +133,7 @@ body {
 }
 
 .nav-hidden {
-    opacity: 0;
+    opacity: 1;
     transition: all 1s;
     transition-property: opacity;
 }
@@ -179,7 +187,7 @@ li:not(:last-child) {
     border: 2px solid #ff951c;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .picture img {
         width: 7em;
         height: 7em;
@@ -192,7 +200,7 @@ li:not(:last-child) {
     font-weight: 800;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #name {
         font-size: 12vw;
     }
@@ -202,7 +210,7 @@ li:not(:last-child) {
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .position {
         font-size: 3.5vw;
     }
@@ -215,7 +223,7 @@ li:not(:last-child) {
     margin: 2rem 0 2rem 0;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .line-break {
         color: #ff951c;
         width: 20% ;
@@ -230,7 +238,7 @@ li:not(:last-child) {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .titles {
         font-size: 7vw;
     }
@@ -241,21 +249,28 @@ li:not(:last-child) {
    line-height: 42px;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .paragraph {
         font-size: 3vw;
         line-height: normal;
     }
 }
 
+/* @media screen and (max-width: 810px) {
+    .paragraph {
+        font-size: 2vw;
+        line-height: normal;
+    }
+} */
+
+
 .paragraph p {
     margin-top: 0;
 }
 
 #section02 {
-    min-height: 90vh;
-    max-width: 90%;
-    padding-top: 5.5rem;
+    min-height: 80vh;
+    padding-top: 7.5vh;
 }
 
 @media screen and (max-width: 810px) {
@@ -286,7 +301,7 @@ li:not(:last-child) {
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
    .skill-name {
     font-size: 3vw;
    }
@@ -299,7 +314,7 @@ li:not(:last-child) {
     background-color: lightgray;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .skill-bar {
         height: 3px;
     }
@@ -366,60 +381,60 @@ li:not(:last-child) {
 
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-1-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-2-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-3-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-4-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-5-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-6-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-7-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #skill-8-progress {
         height: 3px;
     }
 }
 
 #section03 {
-    min-height: 90vh;
-    padding-top: 15vh;
+    min-height: 80vh;
+    padding-top: 7.5vh;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #section03 {
         min-height: 50vh;
         /* padding-top: 0; */
@@ -437,7 +452,7 @@ li:not(:last-child) {
     font-weight: 500;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .dates {
         font-size: 3vw;
     }
@@ -457,7 +472,7 @@ li:not(:last-child) {
     
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .school-program {
         font-size: 5vw;
     }
@@ -480,7 +495,7 @@ li:not(:last-child) {
     font-size: 1.25em;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .school-name {
         font-size: 3vw;
     }
@@ -492,7 +507,7 @@ li:not(:last-child) {
     gap: 7vh;
 }
 
-@media screen and (max-width:810px) {
+@media screen and (max-width:600px) {
     .edcert-boxes {
         gap: 3vh;
     }
@@ -513,10 +528,10 @@ li:not(:last-child) {
 
 #section04 {
     min-height: 90vh;
-    padding-top: 15vh;
+    padding-top: 7.5vh;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     #section04 {
         min-height: 50vh;
     }
@@ -526,7 +541,7 @@ li:not(:last-child) {
     font-size: 2em;
 }
 
-@media screen and (max-width: 810px){
+@media screen and (max-width: 600px){
     #section05 .org-name {
         font-size: 1.5em;
     }
@@ -534,8 +549,8 @@ li:not(:last-child) {
 
 #section05 {
     min-height: 90vh;
-    padding-top: 15vh;
     margin-bottom: 150px;
+    padding-top: 7.5vh;
 }
 
 .work-box-parent {
@@ -544,7 +559,7 @@ li:not(:last-child) {
     gap: 80px;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .work-box-parent {
         gap: 30px;
     }
@@ -563,7 +578,7 @@ li:not(:last-child) {
     font-size: 1.25em;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .org-role {
         font-size: 1em;
     }
@@ -574,7 +589,7 @@ li:not(:last-child) {
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 600px) {
     .org-description {
         font-size: 3vw;
         max-width: 100%;
