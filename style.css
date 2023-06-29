@@ -8,9 +8,8 @@ body {
 }
 
 #heading {
-    height: 2.5rem;
+    height: 1vh;
     width: 100%;
-    font-size: 2em;
     position: fixed;
     background-color: #141414;
     margin: 0 auto;
@@ -79,13 +78,13 @@ body {
 }
 
 #section01 {
-    min-height: 70vh;
+    min-height: 100vh;
     transition: all 0.4s;
 }
 
 @media screen and (max-width: 810px) {
     #section01 {
-        min-height: 50vh;
+        min-height: 0;
     }
 }
 
@@ -117,7 +116,7 @@ body {
     gap: 40px;
     font-family: 'Montserrat',sans-serif;
     width: min-content;
-    top: 10vh;
+    top: 15vh;
 }
 
 @media screen and (max-width: 667px) {
@@ -251,7 +250,7 @@ li:not(:last-child) {
 }
 
 .paragraph {
-   font-size: 1.5em;
+   font-size: 2.5vh;
    line-height: 42px;
 }
 
@@ -275,14 +274,16 @@ li:not(:last-child) {
 }
 
 #section02 {
-    min-height: 80vh;
-    padding-top: 7.5vh;
+    min-height: 100vh;
+    max-width: 75%;
+    padding-top: 5vh;
 }
 
 @media screen and (max-width: 810px) {
     #section02 {
-        min-height: 50vh;
+        min-height: 0;
         max-width: 100%;
+        padding-top: 15vh;
     }
 }
 
@@ -436,14 +437,14 @@ li:not(:last-child) {
 }
 
 #section03 {
-    min-height: 80vh;
-    padding-top: 7.5vh;
+    min-height: 100vh;
+    padding-top: 5vh;
 }
 
 @media screen and (max-width: 810px) {
     #section03 {
-        min-height: 50vh;
-        /* padding-top: 0; */
+        min-height: 0vh;
+        padding-top: 15vh;
     }
 }
 
@@ -533,13 +534,14 @@ li:not(:last-child) {
 }
 
 #section04 {
-    min-height: 90vh;
-    padding-top: 7.5vh;
+    min-height: 100vh;
+    padding-top: 5vh;
 }
 
 @media screen and (max-width: 810px) {
     #section04 {
-        min-height: 50vh;
+        min-height: 0vh;
+        padding-top: 15vh;
     }
 }
 
@@ -554,9 +556,16 @@ li:not(:last-child) {
 }
 
 #section05 {
-    min-height: 90vh;
+    min-height: 100vh;
     margin-bottom: 150px;
-    padding-top: 7.5vh;
+    padding-top: 5vh;
+}
+
+@media screen and (max-width: 810px) {
+    #section05 {
+        min-height: 0;
+        padding-top: 15vh;
+    }
 }
 
 .work-box-parent {
