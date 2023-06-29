@@ -22,7 +22,7 @@ body {
     z-index: 9999;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #heading {
         height: 1.5rem;
     }
@@ -41,7 +41,7 @@ body {
     height: 29.6px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #heading-name img{
         width: 100px;
         height: 15px;
@@ -61,12 +61,18 @@ body {
     max-width: 75%;
 }
 
+@media screen and (max-width: 667px) {
+    .layout1 {
+        max-width: 100%;
+    }
+}
+
 .layout2 {
     display: inline-block;
     padding-left: 5vw;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .main-content {
         margin-top: 3em;
     }
@@ -98,7 +104,7 @@ body {
     max-width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .content {
         max-width: 100%;
     }
@@ -111,10 +117,10 @@ body {
     gap: 40px;
     font-family: 'Montserrat',sans-serif;
     width: min-content;
-    top: 20vh;
+    top: 10vh;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 667px) {
     .nav {
         display: none;
     }
@@ -187,7 +193,7 @@ li:not(:last-child) {
     border: 2px solid #ff951c;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .picture img {
         width: 7em;
         height: 7em;
@@ -200,7 +206,7 @@ li:not(:last-child) {
     font-weight: 800;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #name {
         font-size: 12vw;
     }
@@ -210,7 +216,7 @@ li:not(:last-child) {
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .position {
         font-size: 3.5vw;
     }
@@ -223,7 +229,7 @@ li:not(:last-child) {
     margin: 2rem 0 2rem 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .line-break {
         color: #ff951c;
         width: 20% ;
@@ -238,7 +244,7 @@ li:not(:last-child) {
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .titles {
         font-size: 7vw;
     }
@@ -249,7 +255,7 @@ li:not(:last-child) {
    line-height: 42px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .paragraph {
         font-size: 3vw;
         line-height: normal;
@@ -283,7 +289,7 @@ li:not(:last-child) {
 .skills-container {
     display: grid;
     grid-gap: 50px;
-    grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
 }
 
 #skill {
@@ -301,7 +307,7 @@ li:not(:last-child) {
     font-size: 1.2em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
    .skill-name {
     font-size: 3vw;
    }
@@ -314,7 +320,7 @@ li:not(:last-child) {
     background-color: lightgray;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .skill-bar {
         height: 3px;
     }
@@ -381,49 +387,49 @@ li:not(:last-child) {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-1-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-2-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-3-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-4-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-5-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-6-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-7-progress {
         height: 3px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #skill-8-progress {
         height: 3px;
     }
@@ -434,7 +440,7 @@ li:not(:last-child) {
     padding-top: 7.5vh;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #section03 {
         min-height: 50vh;
         /* padding-top: 0; */
@@ -452,7 +458,7 @@ li:not(:last-child) {
     font-weight: 500;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .dates {
         font-size: 3vw;
     }
@@ -472,7 +478,7 @@ li:not(:last-child) {
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .school-program {
         font-size: 5vw;
     }
@@ -495,7 +501,7 @@ li:not(:last-child) {
     font-size: 1.25em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .school-name {
         font-size: 3vw;
     }
@@ -507,7 +513,7 @@ li:not(:last-child) {
     gap: 7vh;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:810px) {
     .edcert-boxes {
         gap: 3vh;
     }
@@ -531,7 +537,7 @@ li:not(:last-child) {
     padding-top: 7.5vh;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     #section04 {
         min-height: 50vh;
     }
@@ -541,7 +547,7 @@ li:not(:last-child) {
     font-size: 2em;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 810px){
     #section05 .org-name {
         font-size: 1.5em;
     }
@@ -559,7 +565,7 @@ li:not(:last-child) {
     gap: 80px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .work-box-parent {
         gap: 30px;
     }
@@ -578,7 +584,7 @@ li:not(:last-child) {
     font-size: 1.25em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .org-role {
         font-size: 1em;
     }
@@ -589,7 +595,7 @@ li:not(:last-child) {
     font-size: 1.5em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 810px) {
     .org-description {
         font-size: 3vw;
         max-width: 100%;
