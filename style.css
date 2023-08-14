@@ -451,6 +451,7 @@ li:not(:last-child) {
 .school-box {
     display: flex;
     flex-direction: column;
+    max-width: 75%;
 }
 
 .dates {
@@ -500,10 +501,22 @@ li:not(:last-child) {
     word-spacing: 3px;
     padding-top: 10px;
     font-size: 1.25em;
+    color: #ff951c;
 }
 
 @media screen and (max-width: 810px) {
     .school-name {
+        font-size: 3vw;
+    }
+}
+
+.description {
+    font-size: 1.25em;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 810px) {
+    .description {
         font-size: 3vw;
     }
 }
@@ -558,7 +571,7 @@ li:not(:last-child) {
 #section05 {
     min-height: 100vh;
     margin-bottom: 150px;
-    padding-top: 5vh;
+    padding-top: 20vh;
 }
 
 @media screen and (max-width: 810px) {
