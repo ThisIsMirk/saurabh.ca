@@ -126,7 +126,7 @@ body {
 }
 
 #nav-list {
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 500;
     list-style-type: decimal-leading-zero;
     transition: 1s;
@@ -172,8 +172,8 @@ body {
 }
 
 .linkedin {
-    font-size: 1.2em;
-    font-weight: 200;
+    font-size: 1.6em;
+    font-weight: 500;
 }
 
 a {
@@ -212,7 +212,7 @@ li:not(:last-child) {
 }
 
 .position {
-    font-size: 1.2em;
+    font-size: 2em;
 }
 
 @media screen and (max-width: 810px) {
@@ -349,7 +349,7 @@ li:not(:last-child) {
 }
 
 #skill-4-progress {
-    width: 90%; background-color: #ff951c;
+    width: 80%; background-color: #ff951c;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
@@ -571,13 +571,13 @@ li:not(:last-child) {
 #section05 {
     min-height: 100vh;
     margin-bottom: 150px;
-    padding-top: 20vh;
+    padding-top: 5vh;
 }
 
 @media screen and (max-width: 810px) {
     #section05 {
         min-height: 0;
-        padding-top: 15vh;
+        padding-top: 5vh;
     }
 }
 
