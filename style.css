@@ -215,7 +215,7 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     .position {
-        font-size: 3.5vw;
+        font-size: 1.2em;
     }
 }
 
@@ -254,7 +254,7 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     .paragraph {
-        font-size: 3vw;
+        font-size: 1em;
         line-height: normal;
     }
 }
@@ -280,9 +280,9 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     #section02 {
-        min-height: 0;
         max-width: 100%;
         padding-top: 15vh;
+        margin-top: 0;
     }
 }
 
@@ -442,8 +442,8 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     #section03 {
-        min-height: 0vh;
         padding-top: 15vh;
+        margin-top: 0;
     }
 }
 
@@ -552,8 +552,8 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     #section04 {
-        min-height: 0vh;
         padding-top: 15vh;
+        margin-top: 0;
     }
 }
 
@@ -574,8 +574,8 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     #section05 {
-        min-height: 0;
         padding-top: 15vh;
+        margin-top: 0;
     }
 }
 
