@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    background-color: #141414;
-    color: white;
+    background-color: #FAEED1;
+    color: black;
 }
 
 #heading {
@@ -133,7 +133,6 @@ body {
 }
 
 .nav-list-items {
-    color: white;
     list-style-type: none;
 }
 
@@ -189,7 +188,7 @@ li:not(:last-child) {
     border-radius: 50%;
     width: 10em;
     height: 10em;
-    border: 2px solid #ff951c;
+    border: 2px solid #5F9595;
 }
 
 @media screen and (max-width: 810px) {
@@ -245,12 +244,12 @@ li:not(:last-child) {
 
 @media screen and (max-width: 810px) {
     .titles {
-        font-size: 7vw;
+        font-size: 1.5em;
     }
 }
 
 .paragraph {
-   font-size: 2.5vh;
+   font-size: 1.5em;
    line-height: 42px;
 }
 
@@ -274,7 +273,7 @@ li:not(:last-child) {
 }
 
 #section02 {
-    min-height: 100vh;
+    min-height: 80vh;
     max-width: 75%;
     padding-top: 5vh;
 }
@@ -328,28 +327,28 @@ li:not(:last-child) {
 }
 
 #skill-1-progress {
-    width: 82%; background-color: #ff951c;
+    width: 82%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-2-progress {
-    width: 100%; background-color: #ff951c;
+    width: 100%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-3-progress {
-    width: 85%; background-color: #ff951c;
+    width: 85%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
 }
 
 #skill-4-progress {
-    width: 80%; background-color: #ff951c;
+    width: 80%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
@@ -357,7 +356,7 @@ li:not(:last-child) {
 }
 
 #skill-5-progress {
-    width: 90%; background-color: #ff951c;
+    width: 90%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
@@ -365,7 +364,7 @@ li:not(:last-child) {
 }
 
 #skill-6-progress {
-    width: 85%; background-color: #ff951c;
+    width: 85%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
@@ -373,7 +372,7 @@ li:not(:last-child) {
 }
 
 #skill-7-progress {
-    width: 77%; background-color: #ff951c;
+    width: 77%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
@@ -381,7 +380,7 @@ li:not(:last-child) {
 }
 
 #skill-8-progress {
-    width: 77%; background-color: #ff951c;
+    width: 77%; background-color: #95BEAC;
     height: 6px;
     /* border: 0.5px solid ; */
     box-sizing: border-box;
@@ -437,7 +436,7 @@ li:not(:last-child) {
 }
 
 #section03 {
-    min-height: 100vh;
+    min-height: 80vh;
     padding-top: 5vh;
 }
 
@@ -489,7 +488,7 @@ li:not(:last-child) {
 .rectangle-box {
     height: 2px;
     width: 100%;
-    background-image: linear-gradient(to right, #ff951c , yellow);
+    background-image: linear-gradient(to right, #458383 , #FAEED1);
    
 }
 
@@ -501,7 +500,7 @@ li:not(:last-child) {
     word-spacing: 3px;
     padding-top: 10px;
     font-size: 1.25em;
-    color: #ff951c;
+    color: #5F9595;
 }
 
 @media screen and (max-width: 810px) {
@@ -547,7 +546,7 @@ li:not(:last-child) {
 }
 
 #section04 {
-    min-height: 100vh;
+    min-height: 80vh;
     padding-top: 5vh;
 }
 
@@ -558,26 +557,39 @@ li:not(:last-child) {
     }
 }
 
-#section05 .org-name {
+.org-name {
     font-size: 2em;
 }
 
 @media screen and (max-width: 810px){
-    #section05 .org-name {
-        font-size: 1.5em;
+    .org-name {
+        font-size: 1.3em;
     }
 }
 
 #section05 {
-    min-height: 100vh;
-    margin-bottom: 150px;
+    min-height: 80vh;
     padding-top: 5vh;
 }
 
 @media screen and (max-width: 810px) {
     #section05 {
         min-height: 0;
-        padding-top: 5vh;
+        padding-top: 15vh;
+    }
+}
+
+#section06 {
+    min-height: 80vh;
+    margin-top: 20vh;
+    margin-bottom: 150px;
+    padding-top: 5vh;
+}
+
+@media screen and (max-width: 900px) {
+    #section06 {
+        padding-top: 15vh;
+        margin-top: 0;
     }
 }
 
@@ -601,7 +613,7 @@ li:not(:last-child) {
 .org-role {
     word-spacing: 3px;
     padding-top: 10px;
-    color: #ff951c;
+    color: #5F9595;
     padding-bottom: 0px;
     font-size: 1.25em;
 }
@@ -633,11 +645,6 @@ li:not(:last-child) {
 .exp-hidden {
     transform: translateX(-150%);
     transition: all 0.3s;
-}
-
-#section06 {
-    min-height: 90vh;
-    margin-top: 50vh;
 }
 
 .socials {
