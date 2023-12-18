@@ -219,21 +219,6 @@ li:not(:last-child) {
     }
 }
 
-.line-break {
-    color:#ff951c;
-    width: 10%;
-    text-align: left;
-    margin: 2rem 0 2rem 0;
-}
-
-@media screen and (max-width: 810px) {
-    .line-break {
-        color: #ff951c;
-        width: 20% ;
-        margin: 1rem 0 1rem 0;
-    }   
-}
-
 .titles {
     font-family: 'Montserrat';
     font-size: 3em;
